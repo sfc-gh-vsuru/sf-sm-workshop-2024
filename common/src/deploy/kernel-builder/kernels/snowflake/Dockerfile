@@ -1,4 +1,4 @@
-FROM public.ecr.aws/lambda/python:3.7
+FROM public.ecr.aws/lambda/python:3.12
 
 RUN pip install sagemaker==2.94.0 && \
     pip install --upgrade snowflake-connector-python[pandas]==2.7.8 && \
